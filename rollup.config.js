@@ -8,9 +8,9 @@ export default {
         resolve(),
         typescript({
             declaration: true,
-            cacheDir: '.rollup.cache',
-            outDir: 'dist',
-            tsBuildInfoFile: 'dist/buildinfo.tscache',
+            cacheDir: ".rollup.cache",
+            outDir: "dist",
+            tsBuildInfoFile: "dist/buildinfo.tscache",
         }),
         terser(),
     ],
@@ -19,4 +19,4 @@ export default {
         format: "umd",
         name: "GraphQLDiff",
     },
-}
+};
