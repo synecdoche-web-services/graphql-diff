@@ -11,6 +11,8 @@ export default {
             importHelpers: false,
             cacheDir: ".rollup.cache",
             outDir: "dist",
+            // This prevents @rollup/plugin-typescript from trying to import tslib
+            tslib: 1,
         }),
         terser(),
     ],
