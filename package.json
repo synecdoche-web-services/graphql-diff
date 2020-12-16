@@ -1,0 +1,36 @@
+{
+  "name": "graphql-diff",
+  "version": "0.0.0",
+  "description": "Diff GraphQL schemas",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "ava",
+    "build": "rollup -c rollup.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/synecdoche-web-services/graphql-diff.git"
+  },
+  "keywords": [
+    "graphql",
+    "schema",
+    "diff"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/synecdoche-web-services/graphql-diff/issues"
+  },
+  "homepage": "https://github.com/synecdoche-web-services/graphql-diff#readme",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^11.0.1",
+    "@rollup/plugin-typescript": "^8.1.0",
+    "ava": "^3.14.0",
+    "prettier": "^2.2.1",
+    "rollup": "^2.35.1",
+    "rollup-plugin-terser": "^7.0.2",
+    "tslib": "^2.0.3",
+    "typescript": "^4.1.3"
+  },
+  "dependencies": {}
+}
