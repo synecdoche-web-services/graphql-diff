@@ -8,9 +8,9 @@ export default {
         resolve(),
         typescript({
             declaration: true,
+            importHelpers: false,
             cacheDir: ".rollup.cache",
             outDir: "dist",
-            tsBuildInfoFile: "dist/buildinfo.tscache",
         }),
         terser(),
     ],
